@@ -1,0 +1,35 @@
+body { /* body realiza mudanças em tudo que está dentro do body */
+    font-family: sans-serif;
+    width: 80%;
+    margin: auto;
+}
+
+p {
+    background-color: gray;
+    margin-top: 0px;
+    padding-top:20px;
+    text-align: justify;
+    /*border-width: 10px;
+    border-style: dotted;
+    border-color: black;*/
+    border: 5px dotted red;
+}
+
+h1 {
+    background-color: pink;
+    padding: 16px; /* o padding preenche espaço entre a borda e o conteúdo*/
+    outline: 5px dashed red; /* semelhante a 'border', porém fora do elemento */
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2 {
+    background-color: yellowgreen;
+    width: 50%; /*altera a largura */
+    height: 50px; /*altera a altura do elemento*/ /*não recomendável uso de porcentagem na altura */
+    margin-top: 50px; /* diferente do padding, o margin preenche o espaço entre toda a 'box" e o site*/
+    margin-left: 100px;
+    margin: 50px 0 0 100px;
+}
