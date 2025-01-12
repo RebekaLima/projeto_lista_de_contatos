@@ -52,7 +52,7 @@ h1 {
 .list-item {
     display: flex;
     border-bottom: 1px solid #faa7a7;
-    padding: 16px:
+    padding: 16px;
 }
 
 .list-item__imagem img {
@@ -95,3 +95,19 @@ h1 {
 .list-item:hover .list-item__action{
     display: flex;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #fab1b1;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #f87878;
+  }
